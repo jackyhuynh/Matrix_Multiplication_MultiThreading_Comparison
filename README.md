@@ -1,5 +1,5 @@
 # Multi Threading Matrix Multiplication 
-Multi Threading Matrix Multiplication implemented ptherad and perform matrix multiplication between two matrices. In this senario, I will test the program with matrices size 10 x 10, 100 x 100, 500 x 500, 1000 x 1000, and 2000 x 2000 in multi threads (10 threads, 100 threads, 1000 threads, 2000 threads vs No thread)
+Multi Threading Matrix Multiplication implemented ptherad and perform matrix multiplication between two matrices. In this senario, I will test the program with matrices size 10 x 10, 100 x 100, 500 x 500, 1000 x 1000, and 2000 x 2000 in No thread vs multi threads (10 threads, 100 threads, 1000 threads, 2000 threads )
 
 ## Technology
 C , Memory Management, Multthreading (pthread)

@@ -1,19 +1,18 @@
 # Multi Threading Matrix Multiplication 
-Registration System is a group project using C++. Registration System work as its name, a registration system for students. The application contains three data structures (binary search tree, heap, and a hashtable). Data will be read and store in the three data structures. A control manager will manage the insert, update, and delete each Object on all the data structures. There also helpers objects (File-Reader, Student, and Data) was implemented to ensure program security and abstract design. The idea with three data sucture is for back up and Optimized Search Engine. Each data sucture is perform diffrent on each Search.
+Multi Threading Matrix Multiplication implemented ptherad and perform matrix multiplication between two matrices. In this senario, I will test the program with matrices size 10 x 10, 100 x 100, 500 x 500, 1000 x 1000, and 2000 x 2000 in multi threads (10 threads, 100 threads, 1000 threads, 2000 threads vs No thread)
 
 ## Technology
-C++, Pointer, Object-Oriented Design, Encapsulation, Pollymorphism, Data Structures, Algorithm, Memory Management
+C , Memory Management, Multthreading (pthread)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 What things you need to install the software and how to install them
-- Visual Studio: If install visual studio to run this program only will be a waste of time. I highly recommend using Linux Command Line (g++) instead. If Visual Studio already install on your computer this will be nice
+
 - Command-Prompt for Visual Studio: Same go here. For this particular project, I highly recommend using Command-Prompt instead of the IDE.
 - Linux: Program can be run on Linux System (if you familiar with Linux command line). 
-- Any C/C++ compiler: If you have any compiler that already install then I highly recommend use your own compiler with out installing anything (time consuming).
-Give examples
+
 
 ### Installing
 
@@ -33,6 +32,10 @@ Explain how to run the automated tests for this system:
 * [Linux Compilers](https://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs#:~:text=The%20simplest%20way%20to%20compile%20a%20C%2B%2B%20program,only%20compiler%20capable%20of%20compiling%20the%20Linux%20kernel.)- Locate the home folder that contain the program (by using the cd command). Call the g++ compiler and execute.
 * [Visual Studio Command Line](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160
 )
+## Test Result
+
+![alt](https://github.com/jackyhuynh/multithreadingMatrixMultiply-app/blob/main/src/1.png)
+![alt](https://github.com/jackyhuynh/multithreadingMatrixMultiply-app/blob/main/src/2.png)
 
 ## Deployment
 
@@ -40,7 +43,7 @@ Can be deploy to any embedded system without any problem. Can also make API or l
 
 ## Built With
 
-* [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) - The full-featured integrated development environment (IDE) for Android, iOS, Windows, web, and cloud 
+* [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) - The full-featured integrated development environment (IDE) for Android, iOS, Windows, web, and cloud.
 * [.NET](https://dotnet.microsoft.com/download/dotnet-framework) -  Free. Cross-platform. Open source. A developer platform for building Internet of Thing(IOT), Microservices, Desktop, Cloud, Mobile, Machine Learning, Web, Game.
 
 ## Contributing
@@ -54,8 +57,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Truc Huynh** - *Initial work* - [TrucDev](https://github.com/jackyhuynh)
-* **Yien Lin** - *Initial work* - [YienLin](https://www.linkedin.com/in/yienlin/)
-* **Dmitry Sokolov** - *Initial work* - [DmitrySokolov](https://www.linkedin.com/in/dmitry-sokolov-726596a4/)
 
 ## Format
 my README.md format was retrieved from
